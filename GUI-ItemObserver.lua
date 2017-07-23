@@ -229,7 +229,14 @@ function ItemObs.OnDraw()
 	local locy = GUI.Get(ItemObs.Identity .. "locy")
 	
 	if not GUI.Exist(ItemObs.Identity) then
-		GUI.Initialize(ItemObs.Identity, GUI.Category.General, ItemObs.Locale["name"], ItemObs.Locale["desc"], "paroxysm")
+		local GUI_Object = {}
+		GUI_Object["perfect_name"] = ItemObs.Locale["name"]
+		GUI_Object["perfect_desc"] = ItemObs.Locale["desc"]
+		GUI_Object["perfect_author"] = 'paroxysm'
+		GUI_Object["perfect_version"] = 170723
+		GUI_Object["category"] = GUI.Category.General
+		GUI.Initialize(ItemObs.Identity, GUI_Object)
+		
 		GUI.AddMenuItem(ItemObs.Identity, ItemObs.Identity .. "notify", ItemObs.Locale["notify"], GUI.MenuType.CheckBox, 0)
 		GUI.AddMenuItem(ItemObs.Identity, ItemObs.Identity .. "items", ItemObs.Locale["items"], 
 			GUI.MenuType.ImageBox, Length(ItemObs.items), ItemObs.items, ItemObs.IconPath, "item_", 32, 24, nil, 21)
