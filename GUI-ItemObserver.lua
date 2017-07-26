@@ -3,35 +3,43 @@ ItemObs.Identity = "item_obs"
 ItemObs.Locale = {
 	["name"] = {
 		["english"] = "Item Observer",
-		["russian"] = "Контроль предметов"
+		["russian"] = "Контроль предметов",
+		["chinese"] = "物品觀察者"
 	},
 	["desc"] = {
 		["english"] = "Shows what items enemy hero had in last time he was seen, notify about items.",
-		["russian"] = "Показывает какие предметы имел вражеский герой в последний раз когда был виден, уведомляет о предметах."
+		["russian"] = "Показывает какие предметы имел вражеский герой в последний раз когда был виден, уведомляет о предметах.",
+		["chinese"] = "顯示哪些項目有敵方英雄最後一次有人看到他的時候，它會通知有關的主題."
 	},
 	["size"] = {
 		["english"] = "Size",
-		["russian"] = "Размер"
+		["russian"] = "Размер",
+		["chinese"] = "大小"
 	},
 	["show"] = {
 		["english"] = "Show item panel",
-		["russian"] = "Показывать панель предметов"
+		["russian"] = "Показывать панель предметов",
+		["chinese"] = "顯示面板對象"
 	},
 	["cd"] = {
 		["english"] = "Show item cooldown",
-		["russian"] = "Показывать время перезарядки предмета"
+		["russian"] = "Показывать время перезарядки предмета",
+		["chinese"] = "顯示面板對象"
 	},
 	["charges"] = {
 		["english"] = "Show item charges",
-		["russian"] = "Показывать заряды предметов"
+		["russian"] = "Показывать заряды предметов",
+		["chinese"] = "顯示收費項目"
 	},
 	["notify"] = {
 		["english"] = "Notify when enemy buy an item",
-		["russian"] = "Уведомлять когда противники покупают предмет"
+		["russian"] = "Уведомлять когда противники покупают предмет",
+		["chinese"] = "通知當對手購買的物品"
 	},
 	["items"] = {
 		["english"] = "Items to notify",
-		["russian"] = "Уведомлять о предметах"
+		["russian"] = "Уведомлять о предметах",
+		["chinese"] = "通知項目"
 	},
 	["bought"] = {
 		["english"] = "has item",
@@ -40,7 +48,8 @@ ItemObs.Locale = {
 	},
 	["time"] = {
 		["english"] = "Time to notify",
-		["russian"] = "Время уведомления"
+		["russian"] = "Время уведомления",
+		["chinese"] = "通知時間"
 	},
 	["width"] = {
 		["english"] = 240,
