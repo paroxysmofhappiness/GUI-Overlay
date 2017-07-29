@@ -4,12 +4,12 @@ ItemObs.Locale = {
 	["name"] = {
 		["english"] = "Item Observer",
 		["russian"] = "Контроль предметов",
-		["chinese"] = "物品觀察者"
+		["chinese"] = "物品观察者"
 	},
 	["desc"] = {
 		["english"] = "Shows what items enemy hero had in last time he was seen, notify about items.",
 		["russian"] = "Показывает какие предметы имел вражеский герой в последний раз когда был виден, уведомляет о предметах.",
-		["chinese"] = "顯示哪些項目有敵方英雄最後一次有人看到他的時候，它會通知有關的主題."
+		["chinese"] = "当敌方英雄购买指定物品的时候，他会推送通知栏."
 	},
 	["size"] = {
 		["english"] = "Size",
@@ -19,44 +19,44 @@ ItemObs.Locale = {
 	["show"] = {
 		["english"] = "Show item panel",
 		["russian"] = "Показывать панель предметов",
-		["chinese"] = "顯示面板對象"
+		["chinese"] = "显示物品栏面板"
 	},
 	["cd"] = {
 		["english"] = "Show item cooldown",
 		["russian"] = "Показывать время перезарядки предмета",
-		["chinese"] = "顯示面板對象"
+		["chinese"] = "显示物品冷却时间"
 	},
 	["charges"] = {
 		["english"] = "Show item charges",
 		["russian"] = "Показывать заряды предметов",
-		["chinese"] = "顯示收費項目"
+		["chinese"] = "显示物品个数"
 	},
 	["notify"] = {
 		["english"] = "Notify when enemy buy an item",
 		["russian"] = "Уведомлять когда противники покупают предмет",
-		["chinese"] = "通知當對手購買的物品"
+		["chinese"] = "推送物品通知栏"
 	},
 	["items"] = {
 		["english"] = "Items to notify",
 		["russian"] = "Уведомлять о предметах",
-		["chinese"] = "通知項目"
+		["chinese"] = "通知"
 	},
 	["bought"] = {
 		["english"] = "has item",
 		["russian"] = "получил предмет",
-		["chinese"] = "有項目"
+		["chinese"] = "有物品"
 	},
 	["time"] = {
 		["english"] = "Time to notify",
 		["russian"] = "Время уведомления",
-		["chinese"] = "通知時間"
+		["chinese"] = "通知栏持续时间"
 	},
 	["width"] = {
 		["english"] = 240,
 		["russian"] = 300,
-		["chinese"] = 220,
+		["chinese"] = 220
 	}
-}
+} 
 
 ItemObs.IsOpen = false
 ItemObs.IconPath = "resource/flash3/images/items/"
