@@ -55,6 +55,11 @@ ItemObs.Locale = {
 		["english"] = 240,
 		["russian"] = 300,
 		["chinese"] = 220
+	},
+	["author"] = {
+		["english"] = 'paroxysm',
+		["russian"] = 'paroxysm',
+		["chinese"] = 'paroxysm, wwpanbingyi'
 	}
 } 
 
@@ -241,7 +246,7 @@ function ItemObs.OnDraw()
 		local GUI_Object = {}
 		GUI_Object["perfect_name"] = ItemObs.Locale["name"]
 		GUI_Object["perfect_desc"] = ItemObs.Locale["desc"]
-		GUI_Object["perfect_author"] = 'paroxysm'
+		GUI_Object["perfect_author"] = ItemObs.Locale["author"]
 		GUI_Object["perfect_version"] = 170723
 		GUI_Object["category"] = GUI.Category.General
 		GUI.Initialize(ItemObs.Identity, GUI_Object)
