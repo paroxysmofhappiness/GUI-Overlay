@@ -1,1 +1,1 @@
-![main](./Screenshots/overlay.png)
+![main](./overlay.png)
