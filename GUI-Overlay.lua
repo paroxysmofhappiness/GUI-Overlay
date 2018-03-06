@@ -151,7 +151,7 @@ function Overlay.OnDraw()
 		GUI.AddMenuItem(Overlay.Identity, Overlay.Identity .. "showally", Overlay.Locale["showally"], GUI.MenuType.CheckBox, 1)
 		GUI.AddMenuItem(Overlay.Identity, Overlay.Identity .. "showwards", Overlay.Locale["showwards"], GUI.MenuType.CheckBox, 1)
 		GUI.AddMenuItem(Overlay.Identity, Overlay.Identity .. "showstat", Overlay.Locale["showstat"], GUI.MenuType.CheckBox, 1)
-		GUI.AddMenuItem(Overlay.Identity, Overlay.Identity .. "showonlyselected", Overlay.Locale["showonlyselected"], GUI.MenuType.CheckBox, 1)
+		GUI.AddMenuItem(Overlay.Identity, Overlay.Identity .. "showonlyselected", Overlay.Locale["showonlyselected"], GUI.MenuType.CheckBox, 0)
 		Overlay.Font = Renderer.LoadFont("Tahoma", math.floor(GUI.Get(Overlay.Identity .. "size") / 2) - 1, Enum.FontWeight.BOLD)
 		if (locx == "" or locx == nil) then GUI.Set(Overlay.Identity .. "locx", 10) locx = 10 end
 		if (locy == "" or locy == nil) then GUI.Set(Overlay.Identity .. "locy", 150) locy = 150 end
