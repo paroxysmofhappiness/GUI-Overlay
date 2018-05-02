@@ -483,7 +483,7 @@ end
 
 function Overlay.UpdateIconSize(key, val)
 	Overlay.IconFont = Renderer.LoadFont("Tahoma", val - math.floor(val / 1.4), Enum.FontWeight.BOLD)
-	Overlay.IconBigFont = Renderer.LoadFont("Tahoma", val - math.floor(val / 2), Enum.FontWeight.BOLD)
+	Overlay.IconBigFont = Renderer.LoadFont("Tahoma", val - math.floor(val / 2), Enum.FontWeight.Normal)
 end
 
 function Overlay.Notify(item, notify_items, name, ttl, wdt, tts, imageHandle, heroImageHandle)
