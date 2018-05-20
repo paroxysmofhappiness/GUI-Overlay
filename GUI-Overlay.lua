@@ -451,7 +451,7 @@ function Overlay.OnDraw()
 				local imageHandle = GUIDB.Image(itemname)
 
 				if isnotify then
-					Overlay.Notify(item, notify_items, Ability.GetName(item), title, width, tts, imageHandle, heroImageHandle)
+					Overlay.Notify(item, notify_items, itemname, title, width, tts, imageHandle, heroImageHandle)
 				end
 
 				if show then
